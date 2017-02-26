@@ -16,14 +16,21 @@ body {
 }
 
 #textTitle {
-  font-family: 'PT Serif', serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+  text-align: center;
 }
 
 form {
   text-align: center;
 }
 
-#selection , #searchButton{
+form label {
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+}
+
+#date-selection , #searchButton{
 	 background-color: white;
     font-size: 20px;
     height: 30px;
@@ -34,21 +41,16 @@ form {
     font-family: 'Raleway', sans-serif;
 }
 
-#searchButton:hover{
+#searchButton:hover , #date-selection:hover{
 	box-shadow: 6px 5px 10px #CECECE;
 }
 
-#selection:hover{
-	box-shadow: 6px 5px 10px #CECECE;
+#date-selection {
+  width: 190px;
 }
 
 #search{
   margin: 40px auto;
-}
-
-#textTitle {
-	font-family: 'Raleway', sans-serif;
-	font-size: 40px;
 }
 
 .container{
